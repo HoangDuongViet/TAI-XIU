@@ -76,7 +76,7 @@ function playGame(taiAmount, xiuAmount) {
 		resultMessage = "Không có cược nào thắng. ";
 	}
 
-	moneyText.textContent = `Số tiền hiện có: ${money}`;
+	moneyText.textContent = `Số tiền hiện có: ${money} VNĐ`;
 	resultValue.textContent = resultMessage;
 
 	disableInputs(false);
