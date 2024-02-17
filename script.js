@@ -9,7 +9,7 @@ let countdownInterval;
 let randomInterval;
 let money = 10000; // Số tiền ban đầu
 
-moneyText.textContent = `Số tiền hiện có: ${money}`;
+moneyText.textContent = `Số tiền hiện có: ${money} VNĐ`;
 
 betButton.addEventListener("click", () => {
 	const taiAmount = parseInt(taiInput.value) || 0;
