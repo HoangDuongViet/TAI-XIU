@@ -1,0 +1,65 @@
+body {
+  background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/01/15/anh-nen-than-tai-va-tien-bac-cuc-dep_054630029.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.user{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.user img{
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.user span{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+
+.bet-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bet-option {
+  margin: 0 10px;
+  text-align: center;
+}
+
+#bet-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#money-text {
+  margin-top: 20px;
+  font-weight: bold;
+}

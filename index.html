@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TÀI XỈU ONLINE</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+	</head>
+	<body>
+    <div class="user">
+      <img src="./assets/img/avatar.png" alt="user">
+			<span 
+				>Đào thị Lan Anh</span
+			>
+		</div>
+    <div class="title">
+      <h1>TÀI XỈU ONLINE</h1>
+    </div>
+
+		<div class="bet-container">
+			<div class="bet-option">
+				<label for="tai-input">TÀI:</label>
+				<input
+					type="number"
+					id="tai-input"
+					value="0"
+					placeholder="Nhập số tiền cược cho TÀI"
+				/>
+			</div>
+			<div class="bet-option">
+				<label for="xiu-input">XỈU:</label>
+				<input
+					type="number"
+					id="xiu-input"
+					value="0"
+					placeholder="Nhập số tiền cược cho XỈU"
+				/>
+			</div>
+		</div>
+
+		<button id="bet-button">Đặt cược</button>
+
+		<div id="result-container">
+			<p id="result-text"></p>
+			<p id="result-value"></p>
+		</div>
+
+		<p id="money-text"></p>
+		
+
+		<script src="script.js"></script>
+	</body>
+</html>
